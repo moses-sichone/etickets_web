@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Calendar } from "@/components/ui/calendar";
 import { format } from "date-fns";
-import { Search, MapPin, Calendar, Users, X } from "lucide-react";
+import { Search, MapPin, Users, X } from "lucide-react";
 
 interface SearchBoxProps {
   onSearch?: (params: SearchParams) => void;

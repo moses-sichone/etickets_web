@@ -23,7 +23,7 @@ import {
   Users, 
   DollarSign, 
   Wifi, 
-  ParkingIcon,
+  Car,
   Coffee,
   Calendar,
   X
@@ -119,7 +119,7 @@ const mockEvents = [
 
 const amenities = [
   { id: "wifi", name: "Free WiFi", icon: Wifi },
-  { id: "parking", name: "Parking", icon: ParkingIcon },
+  { id: "parking", name: "Parking", icon: Car },
   { id: "catering", name: "Catering", icon: Coffee },
   { id: "outdoor", name: "Outdoor Space", icon: MapPin },
   { id: "bar", name: "Bar Service", icon: Coffee },
