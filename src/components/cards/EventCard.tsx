@@ -86,7 +86,7 @@ export function EventCard({ event, viewMode = "grid" }: EventCardProps) {
     const available = getTotalAvailable();
     if (available === 0) return { text: "Sold Out", variant: "destructive" as const };
     if (available < 10) return { text: "Few Left", variant: "secondary" as const };
-    return { text: "Available", variant: "default" as const };
+    return { text: "Available", variant: "secondary" as const };
   };
 
   const availability = getAvailabilityStatus();
@@ -199,7 +199,7 @@ export function EventCard({ event, viewMode = "grid" }: EventCardProps) {
           </Badge>
         </div>
         <div className="absolute top-2 right-2">
-          <Badge variant={availability.variant} className="bg-white/90">
+          <Badge variant={availability.variant} className="bg-background/90 backdrop-blur">
             {availability.text}
           </Badge>
         </div>
